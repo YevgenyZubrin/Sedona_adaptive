@@ -218,19 +218,16 @@ hr {
     padding-right: 45px;
 }
 
-.feature-№1__image {
-    background-image: url(../images/feature_№1.jpg);
-    background-repeat: no-repeat;
-    background-position: right top;
+.feature__image {
     width: 66.66%;
 }
 
-.feature-№2__image {
+/* .feature-№2__image {
     background-image: url(../images/feature_№2.jpg);
     background-repeat: no-repeat;
     background-position: left top;
     width: 66.66%;
-}
+} */
 
 .features__item_grey {
     background-color: #eeeeee;
@@ -1235,11 +1232,7 @@ hr {
         flex-wrap: wrap;
     }
 
-    .feature-№1__image {
-        width: 100%;
-    }
-
-    .feature-№2__image {
+    .feature__image {
         width: 100%;
     }
 

@@ -1453,7 +1453,7 @@ hr {
     }
 
     .main__sorting {
-        margin: 0;
+        margin: 0 10px;
         margin-bottom: 15px;
     }
 }

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1200">
+    <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic-ext"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -26,7 +26,7 @@
                         <a href="#" class="link nav__link">фото и видео</a>
                     </li>
 
-                    <li class="item nav__item"></li>
+                    <!-- <li class="item nav__item"></li> -->
 
                     <li class="item nav__item">
                         <a href="#" class="link nav__link">карта штата</a>
@@ -36,6 +36,8 @@
                         <a class="link nav__link nav__link_current">гостиницы</a>
                     </li>
                 </ul>
+                <button class="nav__button"></button>
+
             </nav>
         </header>
 
@@ -72,7 +74,7 @@
                             </ul>
                     </fieldset>
                     <fieldset class="filters__field filters-field filters__field_cost">
-                        <legend class="filters-field__title">стоимость в сутки (р):</legend>
+                        <legend class="filters-field__title filters-field__title_center">стоимость в сутки (р):</legend>
                         <div class="filters-field__cost">
                             <span class="filters-field__cost_start">от 0</span>
                             <span class="filters-field__cost_end">до<input class="filters-field__text" type="text" placeholder="" value=""></span>
@@ -253,7 +255,7 @@
         </footer>
 
         <script src="js/range.js"></script>
-
+        <script src="js/menu.js"></script>
     </div>
 </body>
 
